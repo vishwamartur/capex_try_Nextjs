@@ -1,0 +1,31 @@
+/* Define some styles for the search bar component */
+.container {
+  /* Set the display, width, and margin of the container */
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.form {
+  /* Set the display, width, and alignment of the form */
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.input {
+  /* Set the appearance, padding, border, and outline of the input */
+  appearance: none;
+  padding: 0.5rem;
+  border: 1px solid gray;
+  outline: none;
+}
+
+.button {
+  /* Set the appearance, padding, background color, color, and cursor of the button */
+  appearance: none;
+  padding: 0.5rem;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}

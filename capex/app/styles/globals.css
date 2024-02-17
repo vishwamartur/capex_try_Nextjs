@@ -1,0 +1,36 @@
+/* Define some global styles for the application */
+html,
+body {
+  /* Set the padding and margin to zero */
+  padding: 0;
+  margin: 0;
+  /* Set the font family and size */
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Use the box-sizing property to include padding and border in the element's width and height */
+* {
+  box-sizing: border-box;
+}
+
+/* Style the anchor elements */
+a {
+  /* Set the color and text decoration */
+  color: blue;
+  text-decoration: none;
+}
+
+/* Style the anchor elements on hover */
+a:hover {
+  /* Add an underline to the text */
+  text-decoration: underline;
+}
+
+/* Style the image elements */
+img {
+  /* Set the maximum width to 100% of the parent element */
+  max-width: 100%;
+  /* Display the image as a block element */
+  display: block;
+}

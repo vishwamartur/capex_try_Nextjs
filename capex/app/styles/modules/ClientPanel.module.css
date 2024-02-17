@@ -1,0 +1,40 @@
+/* Define some styles for the client panel component */
+.container {
+  /* Set the width and margin of the container */
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title {
+  /* Set the font size and margin of the title */
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.error {
+  /* Set the color and margin of the error message */
+  color: red;
+  margin: 0.5rem 0;
+}
+
+.table {
+  /* Set the width, border, and spacing of the table */
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  /* Set the padding, border, and alignment of the table cells */
+  padding: 0.5rem;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.button {
+  /* Set the appearance, padding, and cursor of the buttons */
+  appearance: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}

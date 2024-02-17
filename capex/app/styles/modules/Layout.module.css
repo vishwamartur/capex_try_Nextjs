@@ -1,0 +1,20 @@
+/* Define some styles for the layout component */
+.container {
+  /* Set the display, height, and direction of the container */
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.main {
+  /* Set the flex-grow and overflow of the main content */
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.footer {
+  /* Set the padding, background color, and alignment of the footer */
+  padding: 1rem;
+  background-color: lightgray;
+  text-align: center;
+}
